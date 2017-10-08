@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\common">
+      <UniqueIdentifier>{d74d35a5-f27f-46a0-8be2-cedba774024f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\host">
+      <UniqueIdentifier>{220ff887-4373-47e1-955b-6e78a3584924}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\ASIOSDK2.3\common\debugmessage.cpp">
+      <Filter>Header Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ASIOSDK2.3\common\register.cpp">
+      <Filter>Header Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ASIOSDK2.3\common\asio.cpp">
+      <Filter>Header Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ASIOSDK2.3\common\combase.cpp">
+      <Filter>Header Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ASIOSDK2.3\host\asiodrivers.cpp">
+      <Filter>Header Files\host</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ASIOSDK2.3\host\ASIOConvertSamples.cpp">
+      <Filter>Header Files\host</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ASIOSDK2.3\host\pc\asiolist.cpp">
+      <Filter>Header Files\host</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ASIOSDK2.3\common\iasiodrv.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ASIOSDK2.3\common\wxdebug.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ASIOSDK2.3\common\asio.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ASIOSDK2.3\common\asiosys.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ASIOSDK2.3\common\combase.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ASIOSDK2.3\host\asiodrivers.h">
+      <Filter>Header Files\host</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ASIOSDK2.3\host\ginclude.h">
+      <Filter>Header Files\host</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ASIOSDK2.3\host\ASIOConvertSamples.h">
+      <Filter>Header Files\host</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ASIOSDK2.3\host\pc\asiolist.h">
+      <Filter>Header Files\host</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
