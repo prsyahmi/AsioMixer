@@ -1,5 +1,7 @@
 # AsioMixer
-AsioMixer is a simple mixer for ASIO devices.
+AsioMixer is a simple mixer for ASIO devices with low CPU usage.
+
+The current version is very limited, it allows mixing two separate channels into a single output channel. Currently, it only supports 32-bit integer LSB format.
 
 
 ## Downloading
